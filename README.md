@@ -3,3 +3,5 @@ Page básica que explora em seu desenvolvimento os fundamentos de HTML e CSS res
 
 ## Tarefas
 Controle de tarefas do projeto diretamente pelo Github.
+
+![alt text](print.jpg)
