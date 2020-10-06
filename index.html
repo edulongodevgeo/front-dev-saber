@@ -19,6 +19,13 @@
 <body>
     <div class="container">
 
+        <div class="hamburguer">
+          <div class="line" id="line1"></div>
+          <div class="line" id="line2"></div>
+          <div class="line" id="line3"></div>
+          <span>fechar</span>
+        </div>  
+
         <header>
 
             <div class="img-wrapper">
@@ -32,7 +39,31 @@
 
 
         </header>
+
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">O caminho</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Github-se</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">O padawan</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Quanto vale?</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="#"><i class="fa fa-free-code-camp"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+                <a href="#"><i class="fa fa-code"></i></a>
+            </div>
+        </aside>
+
     </div>
+
+<script>
+    document.querySelector(".hamburguer").addEventListener("click", () =>
+    document.querySelector(".container").classList.toggle("show-menu")
+);
+</script>
 
 </body>
 
