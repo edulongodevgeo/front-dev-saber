@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400|Raleway:300);
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", Helvetica, arial, sans-serif;
+  color: #dc5656;
+  background-color: #333333;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: "Raleway", "Open Sans", sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  position: relative;
+  overflow: visible;
+}
+.header:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 50px;
+  height: 2px;
+  background-color: #dc5656;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.pen__subheading {
+  margin-bottom: 0;
+}
+.pen__subheading a {
+  color: #dc5656;
+}
+.pen__subheading a:hover, .pen__subheading a:focus {
+  color: #e58080;
+}
+
+.container {
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.col {
+  padding: 1rem;
+}
+@media (min-width: 800px) {
+  .col {
+    width: 50%;
+    float: left;
+  }
+  .col:nth-of-type(2n+1) {
+    clear: left;
+  }
+}
+.col.col--full {
+  width: 100%;
+}
+
+html,
+html *,
+body,
+body * {
+  cursor: none;
+}
+
+.cursor-dot,
+.cursor-dot-outline {
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: opacity 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #dc5656;
+}
+
+.cursor-dot-outline {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(229, 128, 128, 0.5);
+}
