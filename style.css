@@ -12,6 +12,7 @@
 
   html{
     scroll-behavior: smooth;
+    background-color: rgb(0, 0, 0);
   }
   
   .hamburguer {
@@ -202,7 +203,7 @@
   }
   
   .menu-link {
-    font-family: 'Lobster', cursive;;
+    font-family: 'Lobster', cursive;
     letter-spacing: .0rem;
     font-size: 1.7rem;
     color: rgb(255, 255, 255);

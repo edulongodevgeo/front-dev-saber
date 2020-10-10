@@ -16,7 +16,8 @@ html {
   background: #FF0099;  /* fallback for old browsers */
   background: linear-gradient(to right, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
-  text-shadow: .1rem .1rem 2px rgb(124, 122, 8);
+  text-shadow: .1rem .1rem 2px rgb(53, 52, 9);
+  text-decoration: none;
 }
 
 small {
@@ -25,7 +26,7 @@ small {
   text-shadow: .2rem .2rem 2px rgb(82, 0, 121);;
   font-weight: 900;
   font-family: 'Secular One', sans-serif;
-  
+  text-decoration: none;
 }
 
 .content {
@@ -33,12 +34,13 @@ small {
   margin: 0 auto;
   font-family: 'Secular One', sans-serif;
   color: antiquewhite;
-  
+  text-decoration: none;
 }
 
 .content h1{
   color: rgb(255, 208, 0);
   font-size: 1.5rem;
+  text-decoration: none;
 }
 
 .content p {
@@ -47,11 +49,22 @@ small {
   font-family: 'Secular One', sans-serif;
   color: antiquewhite;
   text-shadow: none;
+  text-decoration: none;
 }
+
+.principios {
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: 'Secular One', sans-serif;
+  color: antiquewhite;
+  text-decoration: none;
+  text-shadow: none;
+ }
 
 .content small {
  text-align: center;
  margin: 0 auto;
+ text-decoration: none;
 }
 
 img {
